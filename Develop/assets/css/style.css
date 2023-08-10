@@ -1,54 +1,63 @@
+/* Reset box model for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* General styles for the entire page*/
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Set background color */
 }
 
+/* Styles for the header section */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    padding: 20px; /* Add padding */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* use multiple font families */
+    background-color: #2a607c; /* Set background color */
+    color: #ffffff; /* Set color */
 }
 
+/* Styles for the main header text */
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /* Change display to inline-block */
+    font-size: 48px; /* Adjusted font size */
 }
 
+/* styles for the .seo span within the header h1 */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* change of color for .seo span */
 }
 
+/* styles for the navigation div within the header */
 .header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding-top: 15px; /* Add top padding */
+    margin-right: 20px; /* Add right margin */
+    float: right; /* Float to the right */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Use multiple font families */
+    font-size: 20px; /* Adjust font size */
 }
 
+/* Styles for the navigation list within the header div */
 .header div ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove default list bullet points */
 }
 
+/* Styles for the list items within the navigation list */
 .header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /* Display list items as inline blicks */
 }
 
+/* Styles for anchor links */
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /* Change link color */
+    text-decoration: none; /* /* Remove underline from links */
 }
 
+/* Styles for paragraphs */ 
 p {
-    font-size: 16px;
+    font-size: 16px; /* Set font size for paragraphs */ 
 }
+
 
 .hero {
     height: 800px;
