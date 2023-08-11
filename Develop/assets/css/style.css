@@ -15,11 +15,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* use multiple font families */
     background-color: #2a607c; /* Set background color */
     color: #ffffff; /* Set color */
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Styles for the main header text */
 .header h1 {
-    display: inline-block; /* Change display to inline-block */
     font-size: 48px; /* Adjusted font size */
 }
 
@@ -29,22 +30,28 @@ body {
 }
 
 /* styles for the navigation div within the header */
-.header div {
+header.header {
     padding-top: 15px; /* Add top padding */
     margin-right: 20px; /* Add right margin */
     float: right; /* Float to the right */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Use multiple font families */
     font-size: 20px; /* Adjust font size */
+    width: 100%;
+}
+
+header.header nav {
+    margin: top 20px;
 }
 
 /* Styles for the navigation list within the header div */
-.header div ul {
+header.header ul {
     list-style-type: none; /* Remove default list bullet points */
 }
 
 /* Styles for the list items within the navigation list */
-.header div ul li {
+header.header ul li {
     display: inline-block; /* Display list items as inline blicks */
+    margin-left: 25px;
 }
 
 /* Styles for anchor links */
